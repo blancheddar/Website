@@ -23,12 +23,17 @@
 .break{
     height: 40px;
 }
-.banner{
-    max-width: 90%;
+.card {
+    object-fit: cover;
+    border: none;
+    padding: 0;
 }
 .menu-container{
-    height: 50px;
-    width: 50px;
+    overflow: hidden;
+    height: 24rem;
+    width: 19.125rem;
+    padding: 0;
+    margin: 0;
 }
 .headline{
     margin: auto;

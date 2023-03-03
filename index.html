@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blancheddar</title>
-    <link rel="icon" type="image/x-icon" href="Assets/Various/Blancheddar.ico">
+    <link rel="icon" type="image/x-icon" href="Assets/Variousheddar.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e15987cb0c.js" crossorigin="anonymous"></script>
@@ -30,22 +30,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
+                    <li class="nav-card dropdown">
                         <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Art
                         </a>
                         <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item text-light text-center" href="illustrations.html">Illustrations</a></li>
-                            <li><a class="dropdown-item text-light text-center" href="paintings.html">Paintings</a></li>
-                            <li><a class="dropdown-item text-light text-center" href="portraits.html">Portraits</a></li>
-                            <li><a class="dropdown-item text-light text-center" href="vectors.html">Vector Series</a></li>
+                            <li><a class="dropdown-card text-light text-center" href="illustrations.html">Illustrations</a></li>
+                            <li><a class="dropdown-card text-light text-center" href="paintings.html">Paintings</a></li>
+                            <li><a class="dropdown-card text-light text-center" href="portraits.html">Portraits</a></li>
+                            <li><a class="dropdown-card text-light text-center" href="vectors.html">Vector Series</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item text-center">
+                    <li class="nav-card text-center">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item text-center">
+                    <li class="nav-card text-center">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -54,40 +54,46 @@
     </nav>
     <!-- Banner -->
     <div class="break"></div>
-    <img src="Assets/Various/Banner.jpg" alt="Banner Art" class="banner d-block mx-auto">
+    <div class="container">
+        <div class="row col-12 mx-auto">
+            <img src="Assets/Various/Banner.jpg" alt="Banner Art" class="banner d-block mx-auto">
+        </div>
+    </div>
+    <div class="break"></div>
     <!-- Image Menu -->
     <div class="container">
         <div class="row">
             <div class="col-6 col-md-3 fcontainer">
-                <a href="illustrations.html menu-">
-                    <div class="row gallery-frame  class="menu-container"">
-                        <img class="item" src="Assets/Illustrations/Test1.jpg" alt="Test1">
+                <a href="illustrations.html" class="d-flex justify-content-center">
+                    <div class="row menu-container">
+                        <img class="card" src="Assets/Various/Card1.jpg" alt="Illustrations">
                     </div>
                 </a>
             </div>
             <div class="col-6 col-md-3 fcontainer">
-                <a href="paintings.html">
-                    <div class="row gallery-frame">
-                        <img class="item" src="Assets/Illustrations/Test1.jpg" alt="Test1">
+                <a href="paintings.html" class="d-flex justify-content-center">
+                    <div class="row menu-container">
+                        <img class="card" src="Assets/Various/Card2.jpg" alt="Paintings">
                     </div>
                 </a>
             </div>
             <div class="col-6 col-md-3 fcontainer">
-                <a href="portraits.html">
-                    <div class="row gallery-frame">
-                        <img class="item" src="Assets/Illustrations/Test1.jpg" alt="Test1">
+                <a href="portraits.html" class="d-flex justify-content-center">
+                    <div class="row menu-container">
+                        <img class="card" src="Assets/Various/Card3.jpg" alt="Portraits">
                     </div>
                 </a>
             </div>
             <div class="col-6 col-md-3 fcontainer">
-                <a href="vectors.html">
-                    <div class="row gallery-frame">
-                        <img class="item" src="Assets/Illustrations/Test1.jpg" alt="Test1">
+                <a href="vectors.html" class="d-flex justify-content-center">
+                    <div class="row menu-container">
+                        <img class="card" src="Assets/Various/Card4.jpg" alt="Vector Art">
                     </div>
                 </a>
             </div>
         </div>
     </div>
+    <div class="break"></div>
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
