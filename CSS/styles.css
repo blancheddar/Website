@@ -13,10 +13,6 @@
     background-color: #1C2331;
     color: #f9aa0c !important;
 }
-.selected{
-    color: white;
-    background-color: #f9aa0c;
-}
 .disclaimer{
     margin-top: 0;
     font-size: .75rem;
@@ -24,6 +20,9 @@
 }
 .break{
     height: 40px;
+}
+.banner{
+    max-width: 80%;
 }
 .headline{
     margin: auto;
