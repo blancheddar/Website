@@ -75,4 +75,5 @@
     height: 100%;
     overflow: hidden;
     background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5)
 }
