@@ -21,6 +21,17 @@
     color: #737373;
 }
 .banner{
+    object-fit: cover;
+    border: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.banner-container{
+    position: relative;
+    overflow: hidden;
+    max-height: 80vh;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -33,7 +44,7 @@
     padding: 0;
     margin: 20px 0 0 0;
 }
-.menu-container{
+.card-container{
     position: relative;
     overflow: hidden;
     height: 50vh;
@@ -44,10 +55,6 @@
 .impact{
     margin: auto;
     font-weight: 900;
-}
-.frame-container{
-    margin: 4;
-    padding: 0 3px;
 }
 .gallery-frame{
     padding: 0;
