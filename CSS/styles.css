@@ -1,25 +1,51 @@
+/* Global Parameters */
 *{
     font-family: 'Montserrat', sans-serif;
     border-radius: 0 !important;
     margin: 0;
     padding: 0;
 }
-.nav-link.active{
-    color: #f9aa0c;
-    border-bottom: 3px solid #f9aa0c;
+#logo{
+    margin: auto;
+    font-weight: 900;
 }
 .accent{
     color: #f9aa0c;
 }
-.dropdown-item:focus, .dropdown-item:hover {
+.impact{
+    font-weight: 700;
+}
+.min-break{
+    height: 2.5rem;
+}
+.max-break{
+    height: 6.25rem;
+}
+.overlay{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+/* Navlink Parameters */
+.nav-link.active{
+    color: #f9aa0c;
+    border-bottom: 3px solid #f9aa0c;
+}
+.dropdown-item:focus, .dropdown-item:hover{
     background-color: #1C2331;
     color: #f9aa0c !important;
 }
-.disclaimer{
-    margin-top: 0;
-    font-size: .75rem;
-    color: #737373;
-}
+
+/* Landing Page Parameters */
 .banner{
     object-fit: cover;
     border: none;
@@ -35,10 +61,7 @@
     padding: 0;
     margin: 0;
 }
-.break{
-    height: 40px;
-}
-.card {
+.card{
     object-fit: cover;
     border: none;
     padding: 0;
@@ -52,28 +75,30 @@
     padding: 0;
     margin: 0;
 }
-.impact{
-    margin: auto;
-    font-weight: 900;
+
+/* About Parameters */
+.content-container{
+    max-width: 85%;
 }
-.gallery-frame{
+.about-image-container{
+    position: relative;
+    overflow: hidden;
     padding: 0;
     margin: 0;
 }
-.item{
+.about-image{
+    object-fit: cover;
+    border: none;
+    max-height: 110vh;
     padding: 0;
-    margin: 4px;
+    margin: 0;
 }
-.overlay {
-    margin-top: 20px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.5)
+
+/* Footer Parameters */
+.disclaimer{
+    margin-top: 0;
+    font-size: .75rem;
 }
+
+
+
