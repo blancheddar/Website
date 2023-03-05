@@ -76,17 +76,17 @@
     margin: 0;
 }
 
-/* About Parameters */
+/* About And Contact Parameters */
 .content-container{
     max-width: 85%;
 }
-.about-image-container{
+.deco-image-container{
     position: relative;
     overflow: hidden;
     padding: 0;
     margin: 0;
 }
-.about-image{
+.deco-image{
     object-fit: cover;
     border: none;
     max-height: 110vh;
