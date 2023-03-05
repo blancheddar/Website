@@ -67,7 +67,12 @@
     padding: 0;
     margin: 20px 0 0 0;
 }
-.card-container::on-hover{}
+.card-link:hover .card-container{
+    transform: scale(1.1);
+}
+.card-link:hover .overlay{
+    background-color: rgba(0, 0, 0, 0.25)
+}
 .card-container{
     position: relative;
     overflow: hidden;
