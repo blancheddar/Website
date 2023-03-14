@@ -6,6 +6,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    min-height: 50px;
+}
+footer {
+    min-height: 50px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    flex: 1;
+}
 #logo{
     margin: auto;
     font-weight: 900;
