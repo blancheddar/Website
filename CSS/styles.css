@@ -4,6 +4,7 @@
     border-radius: 0 !important;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 #logo{
     margin: auto;
@@ -20,20 +21,6 @@
 }
 .max-break{
     height: 8vh;
-}
-.overlay{
-    margin-top: 20px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding:0;
-    overflow: hidden;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.5)
 }
 
 /* Navlink Parameters */
@@ -53,13 +40,27 @@
     padding: 0;
     margin: 20px 0 0 0;
 }
+.overlay-card {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5)
+}
 .card-link:hover .card-container{
     transition: .5s ease;
     transform: scale(1.1);
 }
-.card-link:hover .overlay{
+.card-link:hover .overlay-card{
     transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.25)
+    background-color: rgba(0, 0, 0, .25)
 }
 .card-container{
     position: relative;
@@ -68,6 +69,63 @@
     width: 100%;
     padding: 0;
     margin: 0;
+}
+@media (max-width: 600px) {
+    .card-container {
+        height: 30vh;
+    }
+}
+/* Gallery Parameters */
+.gallery-container{
+    max-width: 86%;
+    margin: 0 auto;
+}
+.gallery-container .gallery{
+    columns: 3;
+    gap: 8px;
+}
+@media (max-width: 600px) {
+    
+    .gallery-container .gallery {
+        columns: 2;
+    }
+}
+.gallery-container .gallery img{
+    background-color: #f9aa0c;
+    width: 100%;
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+.overlay-gallery {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.0)
+}
+.gallery-link:hover .overlay-gallery{
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, .40)
+}
+.caption{
+    visibility: hidden;
+}
+.gallery-link:hover .caption{
+    transition: .5s ease;
+    visibility: visible;
 }
 
 /* About And Contact Parameters */
@@ -93,6 +151,3 @@
     margin-top: 0;
     font-size: .75rem;
 }
-
-
-
