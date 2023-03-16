@@ -103,6 +103,7 @@ img {
         height: 30vh;
     }
 }
+
 /* Gallery Parameters */
 .gallery-container{
     max-width: 86%;
@@ -110,12 +111,14 @@ img {
 }
 .gallery-container .gallery{
     columns: 3;
-    gap: 8px;
+    gap: 10px;
+}
+.fourcolumn{
+    columns: 4 !important;
 }
 @media (max-width: 600px) {
-    
     .gallery-container .gallery {
-        columns: 2;
+        columns: 2 !important;
     }
 }
 .gallery-container .gallery img{
