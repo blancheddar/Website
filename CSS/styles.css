@@ -114,6 +114,7 @@ img {
     gap: 10px;
 }
 .fourcolumn{
+    gap: 20px !important;
     columns: 4 !important;
 }
 @media (max-width: 600px) {
@@ -125,13 +126,16 @@ img {
     background-color: #f9aa0c;
     width: 100%;
 }
+.four-item{
+    margin: 0 0 20px 0 !important;
+}
 .gallery-item{
     position: relative;
     overflow: hidden;
     height: 100%;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
 }
 .overlay-gallery {
     margin: 0;
