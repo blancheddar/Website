@@ -162,8 +162,8 @@ img {
     transition: .5s ease;
     visibility: visible;
 }
-/* Specific Parameters */
-.zodiac-drink-banner{
+/* Vector Gallery Parameters */
+.vector-banner{
     width: 100%;
     height: 50vh;
     background-image: url("/Assets/Vectors/Zodiac Drinks/Zodiac cover Photo.png");
@@ -171,19 +171,39 @@ img {
     background-repeat: no-repeat;
     background-size: 100vw;
 }
-.zodiac-container{
+.vector-container{
     width: 100%;
     height: 50vh;
-    background-color: rgba(0, 0, 0, .40);
+    position: relative;
+    background-color: rgba(122, 122, 122, .60);
+}
+.banner-textbox{
+    padding: 10px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px !important;
+    background-color: rgba(0, 0, 0, .30);
+}
+.banner-text{
+    vertical-align: middle;
+    text-align: center;
+    color: white;
 }
 @media (max-width: 600px) {
-    .zodiac-drink-banner {
+    .banner-textbox{
+        width: 70%;
+    }
+    .vector-banner {
         height: 20vh;
     }
-    .zodiac-container{
+    .vector-container{
         height: 20vh;
     }
 }
+
 /* About And Contact Parameters */
 .content-container{
     max-width: 85%;
