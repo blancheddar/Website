@@ -178,10 +178,13 @@ img {
     background-size: 100vw;
 }
 #zodiacdrink{
-    background-image: url("../Assets/Vectors/Zodiac Drinks/Zodiac Cover Photo.png");
+    background-image: url("../Assets/Vectors/Zodiac Drinks/Zodiac Banner.png");
+}
+#types{
+    background-image: url("../Assets/Vectors/36 Types/36 Types Banner.png");
 }
 #dragqueentarot{
-    background-image: url("..Assets/Vectors/Drag Queen Tarot/Drag Banner.png");
+    background-image: url("../Assets/Vectors/Drag Queen Tarot/Drag Banner.png");
 }
 .vector-container{
     width: 100%;
