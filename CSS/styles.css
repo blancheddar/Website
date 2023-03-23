@@ -255,6 +255,11 @@ img {
 .content-container{
     max-width: 85%;
 }
+@media (max-width: 600px) {
+    .content-container{
+        max-width: 90%;
+    }
+}
 .deco-image-container{
     position: relative;
     overflow: hidden;
