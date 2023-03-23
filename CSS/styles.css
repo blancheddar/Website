@@ -119,27 +119,21 @@ img {
     columns: 3;
     gap: 10px;
 }
-.fourcolumn{
-    gap: 20px !important;
-    columns: 4 !important;
-}
-.tarotcolumn{
-    gap: 40px !important;
-}
 @media (max-width: 600px) {
     .gallery-container .gallery {
         columns: 2 !important;
     }
 }
-.gallery-container .gallery img{
+.vector-content{
+    padding: 10px;
+}
+.vector-item {
+    margin: 0 !important;
+}
+.gallery-item img{
+    display: block;
     background-color: #f9aa0c;
     width: 100%;
-}
-.four-item{
-    margin: 0 0 20px 0 !important;
-}
-.tarot-item{
-    margin: 0 0 40px 0 !important;
 }
 .gallery-item{
     position: relative;
@@ -174,6 +168,7 @@ img {
     transition: .5s ease;
     visibility: visible;
 }
+
 /* Vector Gallery Parameters */
 .vector-banner{
     width: 100%;
