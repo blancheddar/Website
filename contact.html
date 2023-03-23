@@ -74,13 +74,25 @@
                 <div class="content-container ms-auto">
                     <div class="min-break"></div>
                     <i class="fa-regular fa-4x fa-envelope"></i>
-                    <h2>For commissions, inquiries, or even if you just wanna say hi, please e-mail:</h2>
-                    <h4 style="text-decoration: underline 2px #f9aa0c; text-underline-offset: 8px;">blancheddar91@gmail.com</h4>
+                    <h2 class="impact">For commissions, inquiries, or even if you just wanna say hi, please e-mail:</h2>
+                    <h2 class="impact" style="text-decoration: underline 2px #f9aa0c; text-underline-offset: 8px;">blancheddar91@gmail.com</h2>
                     <div class="max-break"></div>
                     <h6 class="fst-italic">or message me via this form:</h6>
-                    <form action="">
-
-                    </form>
+                    <div class="min-break"></div>
+                    <form action="https://formspree.io/f/xlekwwon" method="POST" />
+                        <label class="impact" for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                        <label class="impact" for="last-name"><br>Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                        <label class="impact" for="email"><br>Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <label class="impact" for="message"><br>Message:</label>
+                        <textarea name="message" id="message" rows="6"></textarea>
+                        <h6 class="disclaimer"><br>Note:<br>Commission projects are slot-based and depends on the availability of the artist’s
+                            schedule.</h6>
+                        <div class="min-break"></div>
+                        <button class="btn btn-warning" type="submit" onclick="return confirm('Is the email address correct?')">Submit</button>
+                    </form>  
                 </div>
             </div>
             <!-- Image Container -->
