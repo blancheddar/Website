@@ -56,6 +56,13 @@ img {
 .max-break{
     height: 8vh;
 }
+.redirect:link, .redirect:visited{   
+    color: black;
+    text-decoration: none;
+}
+.redirect:hover, .redirect:active{
+    color: #f9aa0c;
+}
 
 /* Navlink Parameters */
 .nav-link.active{
