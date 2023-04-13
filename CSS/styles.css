@@ -48,6 +48,15 @@ form button{
     border-radius: 10px !important;
     float: right;
 }
+.scroll-button{
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    cursor: pointer;
+}
 
 /* disables image saving */
 img {
