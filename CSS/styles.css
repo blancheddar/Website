@@ -176,6 +176,7 @@ img {
     width: 100%;
 }
 .gallery-item{
+    min-height: 100px;
     position: relative;
     overflow: hidden;
     height: 100%;
