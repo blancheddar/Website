@@ -16,3 +16,5 @@ scrollbtn.addEventListener('click', () => {
         behavior: "smooth"
     })
 })
+
+document.addEventListener("contextmenu", (event) => event.preventDefault());
