@@ -48,6 +48,13 @@ form button{
     border-radius: 10px !important;
     float: right;
 }
+.contact-button{
+    margin: 4px 0px;
+    padding: 10px !important;
+    font-weight: 700 !important;
+    width: 200px;
+    border-radius: 10px !important;
+}
 .scroll-button{
     display: none;
     background-color: transparent;
@@ -265,9 +272,15 @@ img {
 .content-container{
     max-width: 85%;
 }
+.content-info{
+    padding: 0 80px 0 80px;
+}
 @media (max-width: 600px) {
     .content-container{
         max-width: 90%;
+    }
+    .content-info{
+    padding: 0 40px 0 40px;
     }
 }
 .deco-image-container{
