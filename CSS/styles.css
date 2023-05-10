@@ -49,11 +49,15 @@ form button{
     float: right;
 }
 .contact-button{
+    color: black;
     margin: 4px 0px;
     padding: 10px !important;
     font-weight: 700 !important;
     width: 200px;
     border-radius: 10px !important;
+}
+.contact-button:hover {
+    color: white;
 }
 .scroll-button{
     display: none;
